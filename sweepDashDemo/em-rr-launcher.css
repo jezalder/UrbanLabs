@@ -1,6 +1,11 @@
 #ReviewerSearchOptions_ExternalReviewerSearchRow {
   font-family: Nexussanspro, sans-serif;
-  font-size: 32px;
+  font-size: 18px;
+  padding-top: 8px;
+}
+
+#ReviewerSearchOptions_ExternalReviewerSearchRow::after {
+  content: "(select then hit go button →)";
 }
 
 .reviewertable {
