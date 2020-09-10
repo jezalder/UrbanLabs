@@ -1,3 +1,11 @@
+a {
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: Nexussanspro, sans-serif;
+  color: #007298;
+  text-decoration: none;
+}
+
 .reviewertable {
   width: 100%;
   font-family: Nexussanspro, sans-serif;
