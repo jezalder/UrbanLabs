@@ -1,0 +1,26 @@
+.div-block-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.column {
+  padding: 32px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.column.one {
+  background-color: #eff4f7;
+}
+
+.column.two {
+  background-color: #d8d8d8;
+}
+
+.column.three {
+  background-color: rgba(0, 114, 152, 0.12);
+}
