@@ -6,7 +6,7 @@
 }
 
 #ReviewerSearchOptions_ExternalReviewerSearchRow::after {
-  content: "&nbsp;(select then hit go button →)";
+  content: '\0000a0Hello';
 }
 
 .reviewertable {
