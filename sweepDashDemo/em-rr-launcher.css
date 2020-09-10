@@ -2,10 +2,11 @@
   font-family: Nexussanspro, sans-serif;
   font-size: 18px;
   padding-top: 8px;
+  display: flex;
 }
 
 #ReviewerSearchOptions_ExternalReviewerSearchRow::after {
-  content: "(select then hit go button →)";
+  content: " (select then hit go button →)";
 }
 
 .reviewertable {
