@@ -1,5 +1,6 @@
 .reviewertable {
   width: 100%;
+  font-family: Nexussanspro, sans-serif;
 }
 
 .div-block-16 {
@@ -29,3 +30,33 @@
 .column.three {
   background-color: rgba(0, 114, 152, 0.12);
 }
+
+@font-face {
+  font-family: 'Nexussanspro';
+  src: url('../fonts/NexusSansPro.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Nexussanspro';
+  src: url('../fonts/NexusSansPro-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Nexussanspro';
+  src: url('../fonts/NexusSansPro-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Nexussanspro';
+  src: url('../fonts/NexusSansPro-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: auto;
+}
+
