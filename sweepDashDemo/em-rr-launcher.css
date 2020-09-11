@@ -37,6 +37,14 @@ input[type="radio" i] {
     margin: 5px 8px 0px 5px;
 }
 
+#ReviewerSearchOptions_ReviewerRoleFromPanel {
+  margin-left:-50px
+}
+
+#ReviewerSearchOptions_HomeJournalSearchModeDropDown {
+  margin-left:-40px
+}
+
 #ReviewerSearchOptions_ExternalReviewerSearchRow {
   font-family: Nexussanspro, sans-serif;
   font-size: 16px;
@@ -142,4 +150,3 @@ input[type="radio" i] {
   font-style: italic;
   font-display: auto;
 }
-
