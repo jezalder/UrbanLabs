@@ -23,7 +23,11 @@
 }
 
 .searchCriteria {
-  width:100% !important; 
+  width:100% !important;
+}
+
+#ReviewerSearchOptions_HomeJournalSearchModeDropDown {
+  height:50px !important;
 }
 
 #ReviewerSearchOptions_ExternalReviewerSearchRow {
