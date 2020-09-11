@@ -1,3 +1,31 @@
+#ReviewerSearchOptionsContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  font-family: Nexussanspro, sans-serif;
+  font-size: 16px;
+}
+
+#ReviewerSearchOptionsContainer legend {
+  font-size: 20px !important;
+  font-weight: normal !important;
+  padding: 4px 16px;
+}
+
+#ReviewerSearchOptionsContainer legend::after {
+  content: '\0000a0- Including Reviewer Recommender';
+}
+
+.searchCriteria {
+  width:100% !important; 
+}
+
 #ReviewerSearchOptions_ExternalReviewerSearchRow {
   font-family: Nexussanspro, sans-serif;
   font-size: 18px;
