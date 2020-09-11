@@ -26,8 +26,10 @@
   width:100% !important;
 }
 
-#ReviewerSearchOptions_HomeJournalSearchModeDropDown {
-  height:50px !important;
+#ReviewerSearchOptions_HomeJournalSearchModeDropDown, #ReviewerSearchOptions_ReviewerRoleDropDown {
+  height:auto !important;
+  font-size:14px !important;
+  padding-left:6px;
 }
 
 #ReviewerSearchOptions_ExternalReviewerSearchRow {
