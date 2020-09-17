@@ -64,10 +64,6 @@ input[type="radio" i] {
   display: flex;
 }
 
-#ReviewerSearchOptions_ExternalReviewerSearchRow {
-  display: none;
-}
-
 #ReviewerSearchOptions_ExternalReviewerSearchRow::after {
   content: '\0000a0(select then hit go button →)';
   padding: 2px 0 0 0;
