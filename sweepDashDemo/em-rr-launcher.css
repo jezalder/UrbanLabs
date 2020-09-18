@@ -110,6 +110,11 @@ input[type="radio" i] {
   text-align: center;
 }
 
+.col span {
+  display:block;
+  padding-top: 8px;
+}
+
 .col.one {
   padding-left: 0px;
 }
