@@ -112,11 +112,11 @@ input[type="radio" i] {
 }
 
 .col.one {
-  padding-left: 0px;
+  padding-left: 8px;
 }
 
 .col.last {
-  padding-right: 0px;
+  padding-right: 8px;
   border-right-style: none;
 }
 
