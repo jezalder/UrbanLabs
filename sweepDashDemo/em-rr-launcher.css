@@ -90,10 +90,6 @@ input[type="radio" i] {
 }
 
 .col {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 16px;
   margin-bottom: 6px;
   padding-right: 16px;
