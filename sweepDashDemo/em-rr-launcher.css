@@ -1,3 +1,7 @@
+.dumimg {
+  visibility:hidden;
+}
+
 #ReviewerSearchOptionsContainer {
   display: -webkit-box;
   display: -webkit-flex;
