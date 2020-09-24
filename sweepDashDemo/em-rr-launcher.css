@@ -1,5 +1,6 @@
 .dumimg {
   visibility:hidden;
+  height: 0px;
 }
 
 #ReviewerSearchOptionsContainer {
