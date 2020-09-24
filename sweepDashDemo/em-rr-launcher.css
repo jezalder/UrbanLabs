@@ -23,8 +23,8 @@
   margin-bottom: 16px;
 }
 
-#ReviewerSearchOptionsContainer legend::after {
-  content: '\0000a0- Including Reviewer Recommender';
+#ReviewerSearchOptionsContainer legend::before {
+  content: 'Reviewer Recommender and\0000a0';
 }
 
 .searchCriteria {
