@@ -1,3 +1,1 @@
-<script>
-  document.getElementById('ReviewerSearchOptions_ExternalReviewerSearch').checked = true
-</script>
+document.getElementById('ReviewerSearchOptions_ExternalReviewerSearch').checked = true
