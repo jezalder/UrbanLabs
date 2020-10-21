@@ -45,6 +45,11 @@
   flex:1 /* to evenly distributs flex elements */
 }
 
+.searchCriteria tr {
+  display:flex;
+  flex-wrap:wrap; /* allow to wrap on multiple rows */
+}
+
 #ReviewerSearchOptions_HomeJournalSearchModeDropDown, #ReviewerSearchOptions_ReviewerRoleDropDown {
   height:auto !important;
   font-size:14px !important;
