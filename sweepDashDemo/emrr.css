@@ -50,6 +50,10 @@
   flex-wrap:wrap; /* allow to wrap on multiple rows */
 }
 
+.searchCriteria tr td:first-child {
+  white-space: nowrap;
+}
+
 .searchCriteria tr td:last-child {
   width:100%; /* fill entire width,row */
   flex:auto; /* reset the flex properti to allow width take over */ 
