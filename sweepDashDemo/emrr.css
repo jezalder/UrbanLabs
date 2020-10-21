@@ -40,7 +40,6 @@
 
 .searchCriteria td {
   padding-left:8px;
-  border:solid 1px;
   display:block;
   flex:1 /* to evenly distributs flex elements */
 }
