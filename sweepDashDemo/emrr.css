@@ -50,6 +50,11 @@
   flex-wrap:wrap; /* allow to wrap on multiple rows */
 }
 
+.searchCriteria tr td:last-child {
+  width:100%; /* fill entire width,row */
+  flex:auto; /* reset the flex properti to allow width take over */ 
+}
+
 #ReviewerSearchOptions_HomeJournalSearchModeDropDown, #ReviewerSearchOptions_ReviewerRoleDropDown {
   height:auto !important;
   font-size:14px !important;
