@@ -86,7 +86,7 @@ input[type="radio" i] {
   padding: 12px 0 8px 0;
   display: flex;
   position: relative;
-  top: -122px;
+  top: -102px;
 }
 
 #ReviewerSearchOptions_ExternalReviewerSearchRow::after {
