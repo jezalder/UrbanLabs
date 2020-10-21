@@ -66,9 +66,7 @@ input[type="radio" i] {
 #ReviewerSearchOptions_GoButton {
   height: 32px;
   width: 48px;
-  margin: 0 0 0 20px;
-  position: absolute;
-  bottom: 21px;
+  margin: 20px 0 0 0;
   z-index: 999;
 }
 
