@@ -79,7 +79,7 @@ input[type="radio" i] {
 #ReviewerSearchOptions_GoButton {
   height: 32px;
   width: 48px;
-  margin: 20px 0 0 0;
+  margin: 12px 0 0 0;
   z-index: 999;
 }
 
@@ -89,7 +89,7 @@ input[type="radio" i] {
   padding: 12px 0 8px 0;
   display: flex;
   position: relative;
-  top: -102px;
+  top: -86px;
 }
 
 #ReviewerSearchOptions_ExternalReviewerSearchRow::after {
