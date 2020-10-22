@@ -1,0 +1,208 @@
+.dumimg {
+  display: none;
+}
+
+#ReviewerSearchOptionsContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  font-family: Nexussanspro, sans-serif;
+  font-size: 16px;
+}
+
+#ReviewerSearchOptionsContainer legend {
+  font-size: 18px !important;
+  font-weight: normal !important;
+  padding: 4px 16px;
+  margin-bottom: 16px;
+}
+
+#ReviewerSearchOptionsContainer legend::before {
+  content: 'Reviewer Recommender and\0000a0';
+}
+
+.searchCriteria {
+  width: 100% !important;
+  display: inline-block;
+  position: relative;
+  top: 32px;
+}
+
+.searchCriteria tbody {
+  display: inline-block;
+}
+
+.searchCriteria td {
+  padding-left:8px;
+  display:block;
+  flex:0; /* to evenly distributs flex elements */
+}
+
+.searchCriteria tr {
+  display:flex;
+  flex-wrap:wrap; /* allow to wrap on multiple rows */
+}
+
+.searchCriteria tr td:first-child {
+  white-space: nowrap;
+}
+
+.searchCriteria tr td:last-child {
+  width:100%; /* fill entire width,row */
+  flex:auto; /* reset the flex properti to allow width take over */ 
+}
+
+#ReviewerSearchOptions_HomeJournalSearchModeDropDown, #ReviewerSearchOptions_ReviewerRoleDropDown {
+  height:auto !important;
+  font-size:14px !important;
+  padding-left:6px;
+}
+
+input[type="radio" i] {
+    margin: 5px 8px 0px 0;
+}
+
+/* #ReviewerSearchOptions_ReviewerRoleFromPanel {
+  margin-left:-50px
+}
+
+#ReviewerSearchOptions_HomeJournalSearchModeDropDown {
+  margin-left:-40px
+} */
+
+#ReviewerSearchOptions_GoButton {
+  height: 32px;
+  width: 48px;
+  margin: 12px 0 0 0;
+  z-index: 999;
+}
+
+#ReviewerSearchOptions_ExternalReviewerSearchRow {
+  font-family: Nexussanspro, sans-serif;
+  font-size: 16px;
+  padding: 12px 0 8px 0;
+  display: flex;
+  position: relative;
+  top: -86px;
+}
+
+#ReviewerSearchOptions_ExternalReviewerSearchRow::after {
+  content: '\0000a0(select and hit the go button below \2193)';
+  padding: 2px 0 0 0;
+}
+
+.reviewertable {
+  width: 100%;
+  font-family: Nexussanspro, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "lnum";
+}
+
+.reviewertable a {
+  color: #007298;
+}
+
+.tools {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.col {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-right: 1px solid #999;
+  text-align: center;
+}
+
+.col span {
+  display:block;
+  padding-top: 8px;
+}
+
+.col.one {
+  padding-left: 8px;
+}
+
+.col.last {
+  padding-right: 8px;
+  border-right-style: none;
+}
+
+.top2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6px 16px 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom: 1px solid #999;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bot2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-top: 1px solid #999;
+  padding: 10px 16px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Nexussanspro';
+  src: url('fonts/NexusSansPro.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Nexussanspro';
+  src: url('fonts/NexusSansPro-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Nexussanspro';
+  src: url('fonts/NexusSansPro-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Nexussanspro';
+  src: url('fonts/NexusSansPro-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: auto;
+}
