@@ -44,11 +44,11 @@
   padding-top: 8px;
 }
 
-.col.one {
+.one {
   padding-left: 8px;
 }
 
-.col.last {
+.last {
   padding-right: 8px;
   border-right-style: none;
 }
