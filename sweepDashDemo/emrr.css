@@ -1,0 +1,118 @@
+.dumimg {
+  display: none;
+}
+
+.reviewertable {
+  width: 100%;
+  font-family: Nexussanspro, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "lnum";
+}
+
+.reviewertable a {
+  color: #007298;
+}
+
+.tools {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.col {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-right: 1px solid #999;
+  text-align: center;
+}
+
+.col span {
+  display:block;
+  padding-top: 8px;
+}
+
+.col.one {
+  padding-left: 8px;
+}
+
+.col.last {
+  padding-right: 8px;
+  border-right-style: none;
+}
+
+.top2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6px 16px 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom: 1px solid #999;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bot2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-top: 1px solid #999;
+  padding: 10px 16px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Nexussanspro';
+  src: url('fonts/NexusSansPro.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Nexussanspro';
+  src: url('fonts/NexusSansPro-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Nexussanspro';
+  src: url('fonts/NexusSansPro-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Nexussanspro';
+  src: url('fonts/NexusSansPro-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: auto;
+}
+Viewport
+Window
+×
+×
+×
