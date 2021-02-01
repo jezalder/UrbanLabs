@@ -53,6 +53,10 @@
   border-right-style: none;
 }
 
+.frtlink {
+  font-size: 12px;
+}
+
 .top2 {
   display: -webkit-box;
   display: -webkit-flex;
